@@ -7,3 +7,4 @@ level 0 - bandit0
 level 1 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If (cat readme )
 level 2 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx (cat /home/bandit1/- )
 level 3 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx (cat "spaces in this filename" )
+level 4 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ (cat ...Hiding-From-You )
