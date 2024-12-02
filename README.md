@@ -1,3 +1,4 @@
-# BLYATT
+# BLYATT(FUCK IN RUSSIAN)
 
-( _ ) NEKO-CHAN
+( _ ) NEKO-CHAN --> cat in japanese
+
