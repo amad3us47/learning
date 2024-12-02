@@ -11,7 +11,9 @@ int main(){
 	for(int i=0;i<n;i++) // taking the number of inputs
 	{
 	cin>>c;
+	{
 	words[i]=str.append(l,c);
+	}
 	}
 	for(int i=0;i<n;i++)
 	{
