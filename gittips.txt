@@ -6,4 +6,4 @@ git push ---> push the code to server
 
 git reset --hard origin/main  ---> if main and origin code gets messed up or something else use this
 
-git pull ----> do before pulling if the code is somewhere else make it sync on both the devices
+git pull ----> do before pulling if the code is somewhere else make it sync on both the devices (updates were rejected like cases)
