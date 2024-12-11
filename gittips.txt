@@ -1,0 +1,9 @@
+git add . ----> checks all the channges in the repo and marks them to get them up to be uploaded
+
+git commit -m "your comment"  ---> add comments to signify the changes you made 
+
+git push ---> push the code to server
+
+git reset --hard origin/main  ---> if main and origin code gets messed up or something else use this
+
+git pull ----> do before pulling if the code is somewhere else make it sync on both the devices
