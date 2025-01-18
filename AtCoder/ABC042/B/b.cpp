@@ -1,24 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main(){
-
-	int l,n;
-	char c;
-	cin>>n;
-	cin>>l;
-	string words[n];
-	string str;
-	for(int i=0;i<n;i++) // taking the number of inputs
+int  main(){
+	int a,b,c;
+	cin >> a >> b >> c;
+	int sum=a+b+c;
+	if(sum==17)
 	{
-	cin>>c;
-	{
-	words[i]=str.append(l,c);
+		cout << "YES";
 	}
-	}
-	for(int i=0;i<n;i++)
-	{
-		cout<<words[i]+"\n";
-	}
-	return 0;
+	else
+		cout << "NO";
 }
 
