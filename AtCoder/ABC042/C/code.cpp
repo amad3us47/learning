@@ -2,28 +2,46 @@
 using namespace std;
 int main()
 {
-
-	int n,m;
-	cin >> n >> m;
-	int arr[n];
-	string str=to_string(n);
-	for(int i=0;i<m;i++)
+	int n,k;
+	string final;
+	cin >> n >> k;
+	string s=to_string(n);
+	//cout << s[0];
+	vector<int> v(k);
+	vector<int> m(9);
+	for(int i=0;i<k;i++)
 	{
-		cin >> arr[i];
+		cin >> v[i];
 	}
-	for(int i=0;i<str.length();i++)
+	sort(v.begin(),v.end()); // sorting the vector for fast calculation 
+	
+        //missing number should be max number
+	for(int i=0;i<10;i++)
 	{
-		for(int j=0;j<m;j++)
+		for(int j=0;j<k;j++)
 		{
-			if(str[i]!=arr[j])
+			if(i!=v[k])
 			{
-				cout >> int ma
-			}
-			else
-			{
-
+				cout << i;
 			}
 		}
 	}
+
+	cout << "============" ;
+
+
+	for(int i=0;i<s.length();i++)
+	{
+		for(int j=0;j<k;j++)
+		{
+			if(s[i] != v[i])
+			{
+				final = final + s[i];
+			}
+		}
+	}
+	cout << final ;
 	return 0;
 }
+
+// problem lies in getting the smallest number missing in the vector
