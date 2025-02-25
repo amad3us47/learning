@@ -157,11 +157,40 @@ void primenumbercheck(int n)
 		if(n%i==0)
 		{
 			cnt++;
-			if((n/i)
+			if((n/i !=i) cnt++;
 		}
 	}
+	if(cnt==2) cout << "true";
+	else cout << "false";
 }
-
+void gcd(int n)
+{
+        // n1=9 n2=12
+	// 9 -> 1,3,9      12-> 1,2,6,12,3,4
+	// highest common factor = 3
+	// ex2:
+	// n1=11 n2=13
+	// 11 -> 1,11      13->1,13
+	// highest common factor = 1
+	for(int i=1;i<=min(n1,n2); i++)
+	{
+	   // TIME COMPLEXITY -> O(m(n1,n2) 
+	   if(n1%i==0 && n2%i==0)
+	   {
+	   gcd =i;
+	   }
+	}
+}
+void euclidean(int n)
+{
+	// gcd(n1,n2) = gcd(n1-n2,n2)
+	// gcd(a,b)   = gcd(a-b,b)
+	// example gcd(15,20)
+	// gcd(20,15) = gcd(5,15)
+	// gcd(15,5)  = gcd(10,5)
+	// gcd(10,5)  = gcd(5,5)
+	// gcd(5,5)   = gcd(0,5)   now if one of the number becomes zero then the other number is gcd of the (n1,n2)
+}
 int main()
 {
 	extractionofdigits(9999);
