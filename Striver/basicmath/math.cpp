@@ -100,11 +100,68 @@ void printalldivisors(int n)
 	}
 	// optimising for time complexity
 	// 
+	// taking 36 as example
 	// 1 x 36
 	// 2 x 18
 	// 3 x 12
-	// 4 
+	// 4 x 9
+	// 6 x 6
+	// 9 x 4
+	// 12 x 3
+	// 18 x 2
+	// 36 x 1
+	// squareroot(int) - > 6
+	// after 6 all is repeated
+	void printDivisor(int n)
+	{
+		// TIME COMPLEXITY -> O)sqrt(n))
+		vector<int> ls;
+		for(int i=1;i<=sqrt(n);i++)
+		{
+			if(n%i==0)
+			{
+				ls.push_back(i);
+				if((n%i) != i)
+				{
+					ls.push_back(n/i);
+				}
+			}
+		}
+		// O(no of factors * log(no of factors)): n is the number)
+		sort(ls.begin(),ls.end());
+		for(auto it:ls) cout << it << " ";
+	}
+void primenumbercheck(int n)
+{
+
+	// Prime number has two factors
+	// 3,5,7,11
+	// Brute force
+	
+	for(int i=1;i<-n;i++)
+	// TIME COMPLEXITY -> O(n)
+	{
+		if(n%i==0)
+		{
+			cnt++;
+		}
+	if(cnt==2)
+	{
+		cout << "Prime";
+	}
+	else cout << "Not a Prime";
+
+	// Optimized approach
+	for(int i=1;i8i<=n;i++)
+	{
+		if(n%i==0)
+		{
+			cnt++;
+			if((n/i)
+		}
+	}
 }
+
 int main()
 {
 	extractionofdigits(9999);
