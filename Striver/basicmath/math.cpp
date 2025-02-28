@@ -181,7 +181,7 @@ void gcd(int n)
 	   }
 	}
 }
-void euclidean(int n)
+void euclidean(int a, int b)
 {
 	// gcd(n1,n2) = gcd(n1-n2,n2)
 	// gcd(a,b)   = gcd(a-b,b)
@@ -190,6 +190,18 @@ void euclidean(int n)
 	// gcd(15,5)  = gcd(10,5)
 	// gcd(10,5)  = gcd(5,5)
 	// gcd(5,5)   = gcd(0,5)   now if one of the number becomes zero then the other number is gcd of the (n1,n2)
+	// gcd(a,b)   = gcd(a%b,b) 
+	// TIME COMPLEXITY - O(log min(a,b))
+	while(a>0 && b>0)
+	{
+		if(a>b) 
+			a=a%b;
+		else
+			b=b%a;
+	}
+	if(a==0) return b;
+	else
+		return a
 }
 int main()
 {
