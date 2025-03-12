@@ -1,0 +1,1 @@
+CHIP-8 was a never a real machine but a virtual machine.People would write programs for this virtual machine, and then an interpreter would decode the instruction. 
