@@ -1,0 +1,11 @@
+https://github.com/kitspace/awesome-electronics
+https://github.com/ajaymnk/open-electronics
+https://github.com/tardate/LittleArduinoProjects
+https://github.com/SergioGasquez/awesome-electronic-engineering?tab=readme-ov-file
+https://www.instructables.com/projects
+https://www.eleccircuit.com/
+https://www.youtube.com/user/matarofe
+https://leap.tardate.com/
+https://www.sparkfun.com/
+https://tronixstuff.com/
+http://www.learningaboutelectronics.com/Projects/
