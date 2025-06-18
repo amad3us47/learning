@@ -8,7 +8,7 @@ def encode(n):
         reduce n by 7 bits
     return byte sequence
     """
-    out = [
+    out = []
     while n > 0:
         n % 128 #TODO bitmask for possible speed 
         #TODO add msb
@@ -17,5 +17,5 @@ def encode(n):
     return bytes(out)
 
 with open('150.uint64','rb') as f:
-    print(struct.unpack('>Q',f.read()))
+    print(struct.unpack('>Q',f.read())[0])
     print(encode(n))
