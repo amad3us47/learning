@@ -1,0 +1,10 @@
+[cname-fingerprint] [dns] [info] app-updates.agilebits.com ["app-updates.us.svc.1infra.net."]
+[cname-fingerprint] [dns] [info] app-updates.agilebits.com ["app-updates.us.svc.1infra.net.]
+sh: 1: Syntax error: "(" unexpected
+sh: 1: Syntax error: ")" unexpected
+[Arbitrary-Text-Injection] [http] [low] https://app-updates.agilebits.com/!!!ATENTION!!!_This_site_is_on_Maintenance_please_go_to_WWW.EVIL.COM
+sh: 1: Syntax error: "(" unexpected
+sh: 1: Syntax error: ")" unexpected
+[http-headers-cross-origin-opener-policy:cross-origin-opener-policy] [http] [low] https://app-updates.agilebits.com
+[http-headers-cross-origin-resource-policy:cross-origin-resource-policy] [http] [low] https://app-updates.agilebits.com
+[custom-version] [ssl] [info] app-updates.agilebits.com:443"

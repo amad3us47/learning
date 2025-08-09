@@ -1,0 +1,7 @@
+[ASVS-4-03-V13-2-2:JSON schema validation does not take place] [http] [medium] https://app-updates.agilebits.com ["404"]
+[ASVS-4-0-3-V13-3-1:XSD schema validation does not take place] [http] [medium] https://app-updates.agilebits.com ["404"]
+[ASVS-4-0-3-V14-4-2:"Content-Disposition: attachment; filename=" header does not exist.] [http] [low] https://app-updates.agilebits.com
+[ASVS-4-0-3-V14-4-6:Referrer-Policy] [http] [low] https://app-updates.agilebits.com ["same-origin"]
+[ASVS-4-0-3-V14-5-2:Access Restriction Bypass Via Origin Spoof] [http] [low] https://app-updates.agilebits.com [origin_host="127.0.0.1",origin_port=":80",origin_schema="http://"]
+[Labda_403Bypass_slash] [http] [unknown] https://app-updates.agilebits.com//
+[http-headers-access-control-allow-origin:access-control-allow-origin] [http] [low] https://app-updates.agilebits.com-
