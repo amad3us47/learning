@@ -32,15 +32,28 @@ root.geometry("300x200")
 label = tk.Label(root, text=f"Count: {counter}", font=("Arial", 24))
 label.pack(pady=20)
 
+label1 = tk.Label(root, text=f"Count: {counter}", font=("Arial", 24))
+label1.pack(pady=20)
+
+
 # Create and place buttons
 frame = tk.Frame(root)
 frame.pack()
 
+frame1 = tk.Frame(root)
+frame1.pack()
+
+
 btn_inc = tk.Button(frame, text="Increment", command=increment, width=10)
 btn_inc.grid(row=0, column=0, padx=5)
 
+btn_inc1 = tk.Button(frame, text="Increment", command=increment, width=10)
+btn_inc1.grid(row=0, column=0, padx=5)
+
+
 btn_dec = tk.Button(frame, text="Decrement", command=decrement, width=10)
 btn_dec.grid(row=0, column=1, padx=5)
+
 
 btn_reset = tk.Button(root, text="Reset", command=reset, width=22)
 btn_reset.pack(pady=10)
