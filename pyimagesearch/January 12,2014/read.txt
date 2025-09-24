@@ -1,0 +1,1 @@
+https://levelup.gitconnected.com/how-i-built-a-local-ai-image-search-engine-using-python-clip-and-streamlit-0e5a250972b5
