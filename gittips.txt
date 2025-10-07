@@ -7,3 +7,6 @@ git push ---> push the code to server
 git reset --hard origin/main  ---> if main and origin code gets messed up or something else use this
 
 git pull ----> do before pulling if the code is somewhere else make it sync on both the devices (updates were rejected like cases)
+
+when git push fails (large files or old commit history is still there) use
+git reset --soft <commit>  --> check the commit from the github history base64, this will reset the git logs till the last push
