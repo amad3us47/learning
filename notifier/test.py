@@ -12,7 +12,7 @@ for line in words[1:46813]:
         r=requests.get(url,allow_redirects=True)
         open(line,'wb').write(r.content)
         #print("using "+ line+" template")
-        os.system(f'./nuclei -u app.hubspot.com -o find.txt -silent 2>/dev/null -sresp -t "{line}"')
+        os.system(f'./nuclei -u https://www.mokapos.com -o find.txt -silent 2>/dev/null -sresp -t "{line}"')
         print(line)
         directory=os.getcwd()
         line=line.rstrip('\n')

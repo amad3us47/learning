@@ -22,7 +22,7 @@ with open("all.txt", encoding="utf8") as file:
     words = file.read().split()
 
 # Loop over the desired range of entries
-for line in words[9025:46813]:
+for line in words[1:46813]:
     line = line.strip()
     url = f"https://amad3us47.github.io/data/{line}"
 
