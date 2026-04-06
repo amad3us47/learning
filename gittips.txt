@@ -9,4 +9,7 @@ git reset --hard origin/main  ---> if main and origin code gets messed up or som
 git pull ----> do before pulling if the code is somewhere else make it sync on both the devices (updates were rejected like cases)
 
 when git push fails (large files or old commit history is still there) use
-git reset --soft <commit>  --> check the commit from the github history base64, this will reset the git logs till the last push
+git reset --soft <commit>  --> check the commit from the github history base64, this will reset the git logs till the last push use "git log" to get the last commit
+
+"git log --oneline" can be used to see the hash of the commit 
+
