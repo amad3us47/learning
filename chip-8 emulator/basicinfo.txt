@@ -28,4 +28,14 @@ The address is divided in three sections:
 - 0x050-0x0A0: Storage space for built-in characters(0 though F), which we will need to manually put into our memory because ROMs will be looking for those characters.
 - 0x200-0xFFF: Instructions from the ROM will be stored starting at 0x200, and anything left after the ROM's space is free to use.
 
+The 16-bit program counter will keep track of which instruction to exexute next. 16 bit cause (0xFF) 
 
+16-level stack is just 16 different PCs.
+
+8-bit stack pointer is used to keep track of "top" of the stack, which is the location of the most recent value was placed. Just "LIFO" principle. 
+
+8-bit delay timer is a simple timer used for timing.
+
+16-input keys is the keys represented in hex values 0 through F. 
+
+Monochrome Display Memory is the memory buffer used for storing the graphics for display. Here it is 64x32 pixels. Here 0xFFFFFFFF is on and 0x00000000 is off. We will be using sprite to make it possible. We will clear the screen with (X,Y) and color it with (X+1,Y+1) to draw the pixels. This is why objects in CHIP-8 games flicker.
