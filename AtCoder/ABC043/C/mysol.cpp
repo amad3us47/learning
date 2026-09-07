@@ -14,10 +14,12 @@ int main() {
 	sort(v.begin(),v.end());
 	int max=0;
 	max=v[n-1];
-	cout << max;
+	//cout << max;
 	int sum=0;
-	for(int i=0;i<=max;i++) 
+	for(int i=0;i<n;i++) 
 	{
-		
+		//cout << v[i] << endl;
+		sum=sum+pow(v[i]-i,2);
+		cout << sum << endl;
 	}
 }
